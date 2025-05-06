@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+    position: fixed;
+    background-color: #fff;
+    z-index: 1000; 
+}
+
+.headerConteiner{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoEvento{
+    width: 200px;
+    cursor: pointer;
+}
+
+.headerOptions{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.link:hover{
+    transition: 1s;
+    border-bottom: 1px solid black;
+}
+
+main{
+    margin-top: 25vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.mainImagem{
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    height: 480px;
+    background-image: url('./assets/bienal-cover.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.sobreEvento{    
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloEvento{
+    font-family: sans-serif;
+    font-size: 40px;
+
+}
+
+.descricaoEvento{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.saibaMais{
+    background-color: #E5801A   ;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;    
+}
+
+.proposta{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100%;
+}
+
+.tituloSecoes{
+    font-family: sans-serif;
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.descricaoProposta{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.programacao{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.localEventoConteiner{
+    margin: 5px 0;
+}
+
+.iconeCalendario{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.nomeEventoConteiner{
+    display: flex;
+    align-items: center;
+}
+
+.nomeEvento{
+    font-size: 20px;
+}
+
+.localEventoConteiner{
+    display: flex;
+    align-items: center;
+}
+
+.bordaEsquerda{
+    margin-left: 10px;
+    width: 35px;
+    height: 30px;
+    border-left: 3px solid gray;
+}
+
+.inscricao{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.descricaoInscricao{
+    margin-bottom: 30px;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+.inputLabel{
+    font-size: 14pt;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.campoInput{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.botaoEnviar{
+    background-color: #E5801A   ;
+    border: none;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;    
+    cursor: pointer;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100%;
+    font-family: sans-serif;    
+}
+
+.galeriaConteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 70px;
+}
+
+.imgGaleria{
+    width: 210px;
+}
+
+footer{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerConteiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerOpcoes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconeRedes{
+    width: 30px;
+    height: 30px;
+    margin: 20px 10px;
+}
+
+.textoDireitosAutorais{
+    margin-bottom: 10px;
+}
