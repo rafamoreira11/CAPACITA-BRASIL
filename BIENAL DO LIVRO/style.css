@@ -21,7 +21,7 @@ header {
     align-items: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.418);
     position: fixed;
-    background-color: #fff;
+    background-color: #71d4ec;
     z-index: 1000; 
 }
 
