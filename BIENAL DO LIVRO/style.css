@@ -250,9 +250,9 @@ footer{
     padding: 0 20px;
 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: center;     
+    text-align: center;
 }
 
 .navfooter ul {
@@ -274,15 +274,15 @@ footer{
 .link:hover {
     color: #007BFF;
 }
-.linkImg img .iconeRedes {
+.linkImg img.iconeRedes {
     width: 24px;
     height: 24px;
     transition: transform 0.3s;
 }
 
-.linkImg img .iconeRedes:hover {
+.linkImg img.iconeRedes:hover {
     transform: scale(1.2);
 }
-.textoDireitosAutorais p{
+.textoDireitosAutorais {
     margin-bottom: 10px;
 }
